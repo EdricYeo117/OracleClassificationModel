@@ -1,0 +1,67 @@
+# === Python / virtualenv ===
+.venv/
+venv/
+ENV/
+env/
+
+# === Bytecode / caches ===
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+*.dylib
+
+# === Build / packaging ===
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# === Logs / temp ===
+*.log
+*.tmp
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === OS junk ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === IDEs ===
+.vscode/
+.idea/
+*.iml
+
+# === Generated outputs (your repo) ===
+detected_faces/
+FairFace-master/detected_faces/
+FairFace-master/test_outputs.csv
+professional_results.csv
+*.csv
+
+# If you want to KEEP test inputs csv, uncomment these and remove the *.csv above:
+# !FairFace-master/test/test_imgs.csv
+# !FairFace-master/test/test_outputs.csv
+# !professional_results.csv
+
+# === Model artifacts / large binaries (recommended) ===
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.h5
+*.safetensors
+
+# If you want to KEEP your specific FairFace weight tracked, uncomment:
+# !fairface_alldata_4race_20191111.pt
+
+# === Secrets / local config ===
+.env
+.env.*
+*.key
+*.pem
+*.p12

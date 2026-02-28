@@ -1,0 +1,7 @@
+numpy<2.2
+opencv-python
+mediapipe==0.10.14
+torch
+torchvision
+mtcnn
+pandas
